@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammad Sudais Arif</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <style>
+    * { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.95);
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #f1f5f9;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    header {
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: linear-gradient(145deg, #1e293b, #334155);
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-weight: normal;
+      color: #94a3b8;
+    }
+    #typing {
+      color: #38bdf8;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 40px 0;
+    }
+    .stat {
+      text-align: center;
+      margin: 20px;
+    }
+    .stat h3 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+      margin: 0;
+    }
+    .fun-box {
+      background: #1e293b;
+      padding: 20px;
+      border-left: 5px solid #38bdf8;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    button {
+      background: #38bdf8;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #0f172a;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#fun">Fun Facts</a>
+</nav>
+
+<header data-aos="fade-in">
+  <h1>Mohammad Sudais Arif</h1>
+  <h2>Computer Science • Powerlifting • Philanthropy</h2>
+  <div id="typing"></div>
+  <a href="MohammadSudaisArifResume.pdf" download>
+    <button>📄 Download My Resume</button>
+  </a>
+</header>
+
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I'm a 4.0 GPA student at CMU, passionate about tech that solves real-world problems. I’ve led the CMU Computing Society, built an Education Portal, and raised £14,000 for cancer treatment access. I also compete internationally in powerlifting and build AI tools that help people live better.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <h3>4.0</h3>
+      <p>GPA</p>
+    </div>
+    <div class="stat">
+      <h3>£14K+</h3>
+      <p>Raised for Cancer Care</p>
+    </div>
+    <div class="stat">
+      <h3>3</h3>
+      <p>Continents of Impact</p>
+    </div>
+  </div>
+</section>
+
+<section id="education" data-aos="fade-up">
+  <h2>Education</h2>
+  <div class="card">
+    <strong>CMU Qatar</strong><br/>
+    B.Sc. Computer Science (2024–2028) – GPA 4.0
+  </div>
+  <div class="card">
+    <strong>Brown University Pre-College</strong><br/>
+    Device Design & Human-Centered Computing
+  </div>
+  <div class="card">
+    <strong>Haberdashers' Boys' School</strong><br/>
+    GCSEs & A-Levels (London, 2017–2024)
+  </div>
+</section>
+
+<section id="experience" data-aos="fade-up">
+  <h2>Experience</h2>
+  <div class="card">
+    <strong>🏥 Banner Thunderbird Hospital (Intern)</strong>
+    <p>Streamlined digital infrastructure and observed clinical AI systems in Arizona.</p>
+  </div>
+  <div class="card">
+    <strong>🎨 Sisco Jobs UK – Infographics Intern</strong>
+    <p>Created visual aids for complex tech ideas across web platforms.</p>
+  </div>
+  <div class="card">
+    <strong>🎗️ Shaukat Khanum Hospital – UK Ambassador</strong>
+    <p>Led fundraising drives and community events, raising £14,000+ for healthcare.</p>
+  </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="card">
+    <strong>📚 Education Access Portal</strong>
+    <p>AI-powered platform connecting volunteer educators with underserved students.</p>
+  </div>
+  <div class="card">
+    <strong>💡 AI Stress Detection App</strong>
+    <p>Biometric-driven stress detection app used in student wellness initiatives.</p>
+  </div>
+</section>
+
+<section id="fun" data-aos="fade-up">
+  <h2>Fun Facts</h2>
+  <div class="fun-box">
+    🧠 Chess Champion – Strategized national tournaments with calm precision.
+  </div>
+  <div class="fun-box">
+    🥋 Taekwondo Black Belt – Discipline and combat training through years of dedication.
+  </div>
+  <div class="fun-box">
+    🌍 Travel Addict – Immersed in cultures across Morocco, Japan, and more.
+  </div>
+  <div class="fun-box">
+    💪 Powerlifter – National Champion & CMU Rep at international events.
+  </div>
+</section>
+
+<footer>
+  <p>Made with ❤️ by Sudais | <a style="color:#38bdf8" href="mailto:arifm1221@outlook.com">Email Me</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({ duration: 1200 });
+
+  // Typing Effect
+  const typingText = ["Student @ CMU", "AI Explorer", "Powerlifter", "Changemaker", "Coder with a Cause"];
+  let i = 0;
+  let j = 0;
+  let current = "";
+  let isDeleting = false;
+
+  function type() {
+    const target = document.getElementById("typing");
+
+    if (i < typingText.length) {
+      if (!isDeleting && j <= typingText[i].length) {
+        current = typingText[i].substring(0, j++);
+        target.innerHTML = current;
+      } else if (isDeleting && j >= 0) {
+        current = typingText[i].substring(0, j--);
+        target.innerHTML = current;
+      }
+
+      if (j === typingText[i].length) isDeleting = true;
+      if (isDeleting && j === 0) {
+        isDeleting = false;
+        i = (i + 1) % typingText.length;
+      }
+    }
+
+    setTimeout(type, isDeleting ? 80 : 150);
+  }
+
+  type();
+</script>
+
+</body>
+</html>
